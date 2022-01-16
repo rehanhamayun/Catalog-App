@@ -1,5 +1,5 @@
-import 'package:catalog_app/catalog.dart';
 import 'package:catalog_app/myappbar.dart';
+import 'package:catalog_app/uidesign.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,10 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      themeMode: ThemeMode.light,
-      theme: MyTheme.lightTheme(context),
-      // darkTheme: MyTheme.darkTheme(context),
-      home: Catalog(),
+      home: UiDesign(),
     );
   }
 }
