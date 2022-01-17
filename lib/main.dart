@@ -1,3 +1,4 @@
+import 'package:catalog_app/Blog/blog.dart';
 import 'package:catalog_app/myappbar.dart';
 import 'package:catalog_app/uidesign.dart';
 import 'package:flutter/material.dart';
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: UiDesign(),
+      home: Blog(),
     );
   }
 }

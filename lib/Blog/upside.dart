@@ -1,9 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'titletext.dart';
+import 'package:catalog_app/titletext.dart';
+import 'package:flutter/cupertino.dart';
 
-class MyBar extends StatelessWidget {
-  const MyBar({Key? key}) : super(key: key);
+class Upside extends StatelessWidget {
+  const Upside({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class MyBar extends StatelessWidget {
               35), // Padding for Profile & Icon to move side from the edges
       height: 150,
       decoration: BoxDecoration(
-          color: mainColor,
+          color: Colors.grey.withOpacity(0.2),
           borderRadius: BorderRadius.only(bottomLeft: Radius.circular(80.0))),
 
       // AppBar background Color Light grey

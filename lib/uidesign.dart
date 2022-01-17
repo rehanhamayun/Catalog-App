@@ -1,3 +1,4 @@
+import 'package:catalog_app/lastpart.dart';
 import 'package:catalog_app/mybar.dart';
 import 'package:catalog_app/profile.dart';
 import 'package:catalog_app/titletext.dart';
@@ -14,15 +15,7 @@ class UiDesign extends StatelessWidget {
             children: [
               Stack(
                 children: [
-                  Container(
-                    alignment: Alignment.center,
-                    padding: EdgeInsets.only(top: 400),
-                    child: Text(
-                      "Images Bar",
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ),
-                  // Last part i.e Images
+                  LastPart(),
                   Profile(),
                   MyBar(),
                 ],
